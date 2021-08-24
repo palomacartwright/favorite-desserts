@@ -7,6 +7,8 @@ our_desserts <- read_csv(here("favorite_desserts.csv"))
 
 
 is_iconic <- function(dessert) {
-  if (dessert %in% desserts_iconic$dessert)
-    print("My dessert is iconic!!")
+  if (dessert %in% desserts_iconic$dessert){
+    print("My dessert is iconic!!") 
+  } else 
+    print("Your dessert is lame")
 }
