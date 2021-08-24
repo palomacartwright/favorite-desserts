@@ -12,3 +12,5 @@ is_iconic <- function(dessert) {
   } else 
     stop("Your dessert is lame or, you did not use proper capitalization")
 }
+
+# I fixed the merge conflict
