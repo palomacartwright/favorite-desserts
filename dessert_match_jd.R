@@ -10,5 +10,5 @@ is_iconic <- function(dessert) {
   if (dessert %in% desserts_iconic$dessert){
     print("My dessert is iconic!!") 
   } else 
-    print("Your dessert is lame")
+    stop("Your dessert is lame or, you did not use proper capitalization")
 }
