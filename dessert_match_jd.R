@@ -10,7 +10,5 @@ is_iconic <- function(dessert) {
   if (dessert %in% desserts_iconic$dessert){
     print("My dessert is iconic!!") 
   } else 
-    stop("Your dessert is lame or, you did not use proper capitalization")
+    print("Your dessert is lame. Choose better")
 }
-
-# I fixed the merge conflict
